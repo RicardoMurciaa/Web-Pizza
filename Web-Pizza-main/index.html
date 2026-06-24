@@ -1,27 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Inicio - Pizza</title>
 </head>
+
 <body>
     <header>
-        <nav>
-            <h1>Hola</h1>
-        </nav>
+        <nav class="caja-navegacion">
+        <div class="ajuste-espaciado">
+
+            <div class="icon-button">
+                <a href="index.html">
+                    <img class="logo" src="img/logoPizza.png" alt="logo">
+                </a>
+            </div>
+
+            <div>
+                <button class="pedir-boton">PIDE YA A DOMICILIO</button>
+            </div>
+
+            <div class="navbar">
+                <form action="" class="formulario">
+
+                    <div class="links-espaciado">
+                        <ul class="links-verticalmente">
+                            <li><a class="espacio-entre-links" href="index.html">Inicio</a></li>
+                            <li><a class="espacio-entre-links" href="#">Menú</a></li>
+                            <li><a class="espacio-entre-links" href="#">Promociones</a></li>
+                            <li><a class="espacio-entre-links" href="#">Crea</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="contenedor-busqueda">
+                        <input class="barra-busqueda" type="text" placeholder="Busqueda">
+
+                        <button class="btn-barra" type="submit">
+                            <img class="btn-busqueda" src="img/busqueda.png" alt="busqueda">
+                        </button>
+                    </div>
+
+                </form>
+            </div>
+
+            <button class="carrito-btn">
+                <img class="btn-carrito" src="img/icon-icons-carrito.png" alt="carrito">
+            </button>
+
+        </div>
+    </nav>
     </header>
 
     <main>
         <section>
+            <br><br>
             <div class="carrusel">
                 <ul>
-                    <li><img src="/img/banner1.png" alt="Promocion Pizza 1"></li>
-                    <li><img src="/img/banner2.png" alt="Promocion Pizza 2"></li>
-                    <li><img src="/img/banner3.png" alt="Promocion Pizza 3"></li>
-                    <li><img src="/img/banner4.png" alt="Promocion Pizza 4"></li>
-                    <li><img src="/img/banner5.png" alt="Promocion Pizza 5"></li>
+                    <li><img src="img/banner1.png" alt="Promocion Pizza 1"></li>
+                    <li><img src="img/banner2.png" alt="Promocion Pizza 2"></li>
+                    <li><img src="img/banner3.png" alt="Promocion Pizza 3"></li>
+                    <li><img src="img/banner4.png" alt="Promocion Pizza 4"></li>
+                    <li><img src="img/banner5.png" alt="Promocion Pizza 5"></li>
                 </ul>
             </div>
         </section>
@@ -30,28 +72,28 @@
             <h1 class="titulo">Menu</h1>
             <div class="contenedorMenu">
                 <a href="#" class="individual">
-                    <img src="/img/pizzaMenu.jpg">
+                    <img src="img/pizzaMenu.jpg">
                     <div class="contenidoIndividual">
                         <h2>Pizzas</h2>
                     </div>
                 </a>
 
                 <a href="#" class="individual">
-                    <img src="/img/promo.png">
+                    <img src="img/promo.png">
                     <div class="contenidoIndividual">
                         <h2>Promociones</h2>
                     </div>
                 </a>
 
                 <a href="#" class="individual">
-                    <img src="/img/especial.png">
+                    <img src="img/especial.png">
                     <div class="contenidoIndividual">
                         <h2>Especialidades</h2>
                     </div>
                 </a>
 
                 <a href="#" class="individual">
-                    <img src="/img/complemento.png">
+                    <img src="img/complemento.png">
                     <div class="contenidoIndividual">
                         <h2>Complementos</h2>
                     </div>
@@ -60,4 +102,5 @@
         </section>
     </main>
 </body>
+
 </html>

@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* 
+header{
+    background-color: #962A2A;
+    padding: 5px 30px;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Barra principal */
+.caja-navegacion {
+    background-color: #962A2A;
+    width: 100%;
+    min-height: 88px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+/* Contenedor interno */
+.ajuste-espaciado {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 25px;
+    min-height: 100px;
+}
+
+/* Logo */
+.logo {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+}
+
+/* Botón domicilio */
+.pedir-boton {
+    border: none;
+    background: #F4E1C8;
+    color: #962A2A;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 18px;
+    padding: 14px 24px;
+    cursor: pointer;
+}
+
+/* Navbar interna */
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+/* Formulario */
+.formulario {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+/* Links */
+.links-verticalmente {
+    display: flex;
+    gap: 70px;
+    padding: 0 50px 0 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.espacio-entre-links {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Buscador */
+.contenedor-busqueda {
+    display: flex;
+    align-items: center;
+    background: #F4E1C8;
+    border-radius: 16px;
+    padding: 0 12px;
+    width: 190px;
+    height: 40px;
+}
+
+.barra-busqueda {
+    border: none;
+    outline: none;
+    background: transparent;
+    width: 100%;
+    font-size: 15px;
+}
+
+.btn-barra {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.btn-busqueda {
+    width: 22px;
+    height: 22px;
+}
+
+/* Carrito */
+.carrito-btn {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.btn-carrito {
+    width: 50px;
+    height: 50px;
+}
+
+/* CSS del carrusel */
+/* https://www.youtube.com/watch?v=9FNNkzPBFcE */
+
+.carrusel{
+    width: 100%;
+    max-width: 1280px;
+    height: auto;
+    margin: 0px auto;
+    overflow: hidden;
+}
+
+.carrusel ul{
+    display: flex;
+    padding: 0;
+    width: 500%;
+    animation: slide 25s infinite ease-in-out;
+}
+
+.carrusel li{
+    list-style: none;
+    width: 20%;
+    flex-shrink: 0;
+}
+
+.carrusel img{
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* CSS del menu */
+/* https://www.youtube.com/watch?v=9FNNkzPBFcE */
+
+.titulo{
+    font-size: 2.5rem;
+    margin: 40px 0 30px 0;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.contenedorMenu{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.individual{
+    width: 325px;
+    background-color: #8B0000;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px;
+}
+
+.individual img{
+    width: 100%;
+    height: 225px;
+}
+
+.contenidoIndividual{
+    padding: 15px;
+    text-align: center;
+    color: #FAF7F2;
+}
+
+/* Parte del carrusel */
+
+@keyframes slide {
+    0% {margin-left: 0%;}
+    18% {margin-left: 0%;}
+
+    20% {margin-left: -100%;}
+    38% {margin-left: -100%;}
+
+    40% {margin-left: -200%;}
+    58% {margin-left: -200%;}
+
+    60% {margin-left: -300%;}
+    78% {margin-left: -300%;}
+
+    80% {margin-left: -400%;}
+    100% {margin-left: -400%;}
+}
+
+/* Fin de parte del carrusel */
