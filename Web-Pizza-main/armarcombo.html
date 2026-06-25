@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Disfruta de las mejores pizzas preparadas con ingredientes frescos y promociones exclusivas.">
+    <meta name="description"
+        content="Disfruta de las mejores pizzas preparadas con ingredientes frescos y promociones exclusivas.">
 
     <meta property="og:title" content="Inicio - Pizza" />
     <meta property="og:description" content="Las mejores pizzas, promociones especiales, combos y mas!." />
@@ -19,14 +20,56 @@
             background-color: #FFEAD5;
             font-family: 'Segoe UI', sans-serif;
             margin: 0;
-            padding: 20px;
+
         }
     </style>
 </head>
-<body>
 
-    <a href="index.html" class="volver">← Volver al Inicio</a>
-    <h1 class="titulon">Configura los elementos de tu combo</h1>
+<body>
+    <header>
+        <nav class="caja-navegacion">
+        <div class="ajuste-espaciado">
+
+            <div class="icon-button">
+                <a href="index.html">
+                    <img class="logo" src="img/logoPizza.png" alt="logo">
+                </a>
+            </div>
+
+            <div>
+                <button class="pedir-boton">PIDE YA A DOMICILIO</button>
+            </div>
+
+            <div class="navbar">
+                <form action="" class="formulario">
+
+                    <div class="links-espaciado">
+                        <ul class="links-verticalmente">
+                            <li><a class="espacio-entre-links" href="index.html">Inicio</a></li>
+                            <li><a class="espacio-entre-links" href="index.html">Menú</a></li>
+                            <li><a class="espacio-entre-links" href="index.html">Promociones</a></li>
+                            <li><a class="espacio-entre-links" href="armarcombo.html">Crea</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="contenedor-busqueda">
+                        <input class="barra-busqueda" type="text" placeholder="Busqueda">
+
+                        <button class="btn-barra" type="submit">
+                            <img class="btn-busqueda" src="img/busqueda.png" alt="busqueda">
+                        </button>
+                    </div>
+
+                </form>
+            </div>
+
+            <button class="carrito-btn">
+                <img class="btn-carrito" src="img/icon-icons-carrito.png" alt="carrito">
+            </button>
+
+        </div>
+    </nav>
+    </header>
 
     <div class="menu-desplegable-container">
 
@@ -61,6 +104,8 @@
         </div>
 
     </div>
-
+    </div>
+    
 </body>
+
 </html>

@@ -14,12 +14,6 @@ header{
     padding: 5px 30px;
 } */
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 /* Barra principal */
 .caja-navegacion {
     background-color: #9b1212;
@@ -140,7 +134,7 @@ a {
 
 .carrusel{
     width: 100%;
-    max-width: 1280px;
+    max-width: 950px;
     height: auto;
     margin: 0px auto;
     overflow: hidden;
@@ -161,6 +155,7 @@ a {
 
 .carrusel img{
     width: 100%;
+    align-items: center;
     object-fit: cover;
     display: block;
 }
@@ -199,6 +194,12 @@ a {
     border-radius: 8px;
     overflow: hidden;
     text-decoration: none;
+    transition: 0.3s;
+}
+
+.individual:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
 }
 
 .individual img {
@@ -332,6 +333,7 @@ a {
             flex-wrap: wrap;
             max-width: 1000px;
             margin: 0 auto;
+            padding: 50px;
         }
 
         /* Cada barra de apartado individual */
@@ -455,10 +457,52 @@ a {
     height: 350px;
 }
 
+
+
+/* Imagen de Nuestra Trayectoria */
+.bloque {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+
+.box-info-image {
+    display: flex;
+    background-color: #8B0000;
+    color: #FAF7F2;
+    border-radius: 12px;
+    overflow: hidden;
+    align-items: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.box-info-image {
+    flex: 1;
+    padding: 40px;
+}
+
+
+.box-image {
+    flex: 1;
+    height: 320px;
+    width: 552px;
+}
+
+.box-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.box-info {
+    flex: 1;
+    padding: 0px 50px 0 0;
+}
+
+
+
 .combo-imagen img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
 }
 
 /* --- SOBRE NOSOTROS --- */
