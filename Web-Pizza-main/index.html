@@ -4,6 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Disfruta de las mejores pizzas preparadas con ingredientes frescos y promociones exclusivas.">
+
+    <meta property="og:title" content="Inicio - Pizza" />
+    <meta property="og:description" content="Las mejores pizzas, promociones especiales, combos y mas!." />
+    <meta property="og:image" content="https://proyectopizzaweb.netlify.app/images/logoIcon.jpeg" />
+    <meta property="og:url" content="https://proyectopizzaweb.netlify.app/index.html" />
+    <meta property="og:logo" content="https://proyectopizzaweb.netlify.app/images/logoIcon.jpeg" />
+    <meta property="og:type" content="website" />
+
     <link rel="stylesheet" href="css/style.css">
     <title>Inicio - Pizza</title>
 </head>
@@ -31,7 +40,7 @@
                             <li><a class="espacio-entre-links" href="index.html">Inicio</a></li>
                             <li><a class="espacio-entre-links" href="#">Menú</a></li>
                             <li><a class="espacio-entre-links" href="#">Promociones</a></li>
-                            <li><a class="espacio-entre-links" href="#">Crea</a></li>
+                            <li><a class="espacio-entre-links" href="/armarcombo.html">Crea</a></li>
                         </ul>
                     </div>
 
@@ -131,6 +140,35 @@
         </a>
     </div>
 </section>
+
+<section class="seccion-combo">
+            <div class="combo-banner">
+                <div class="combo-info">
+                    <h2 class="subtitulo-seccion">Construye tu propio Combo</h2>
+                    <p>Diseña la combinación perfecta a tu antojo. Elige el tamaño ideal de tu pizza,
+                    la especialidad o tipo de masa que más te guste, y añade tu acompañamiento favorito
+                    junto a una bebida fría. ¡Hazlo a tu manera y ahorra más!</p>
+                    <a href="armarcombo.html" class="btn-combo">Empezar a Armar </a>
+                </div>
+                <div class="combo-imagen">
+                    <img src="/img/construyePizza.jpeg" alt="Arma tu combo de pizza">
+                </div>
+            </div>
+        </section>
+
+        <section class="seccion-nosotros">
+            <h2 class="titulo">Conócenos</h2>
+            <div class="contenedor-nosotros-tarjeta">
+                <a href="#historia-corta" class="tarjeta-nosotros">
+                    <div class="tarjeta-nosotros-contenido">
+                     <h3>Nuestra Historia</h3>
+                     <p>Haz clic aquí para leer un breve resumen de nuestra pasión por la pizza
+                     tradicional en la misma página...</p>
+                     <span class="btn-externo" onclick="window.location.href='nosotros.html'; event.stopPropagation();">Ver Galería y Ubicación</span>
+                    </div>
+                </a>
+            </div>
+        </section>
         <br><br>
     </main>
     <footer class="footer">
