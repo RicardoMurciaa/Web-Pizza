@@ -35,7 +35,7 @@ Desarrollo Web Frontend
 ## 📄 Documento PDF
 Puedes descargar la documentación del proyecto aquí:
 
-[Descargar PDF](LINK)
+[Descargar PDF]([LINK](https://docs.google.com/document/d/10MF5p0DjoWZpcVUULq-Bjr-MkzeLpzydr5RD4O6eHkE/edit?usp=sharing))
 
 ---
 
